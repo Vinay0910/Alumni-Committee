@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="../sass/main.css">
+    <title>Contact us| Alumni Portal, FRCRCE (Bandra)</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm mb-0 navbar-dark bg-top " style="padding: 0rem;">
+    <div class="container-fluid">
+
+        <div class="collapse navbar-collapse container">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="navbar-brand mb-0 h1" href="#"><img src="../assets/images/Alumni Association Logo.png"
+                            alt="#" width="60" height="60">CRCE ALUMNI ASSOCIATION</a>
+                </li>
+                <!-- <li class="nav-item" style="margin:auto">
+                    <span class="navbar-brand nav-name mb-0 h1">CRCE &mdash; ALMA MATER</span>
+                </li> -->
+
+            </ul>
+            <div class=" flex-row my-navbar-icon ">
+                <ul class="navbar-nav  me-auto flex-row">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/alumnifrcrce/"><i class="fab fa-facebook"
+                                style="padding: 1px;"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/alumnifrcrce/"><i class="fab fa-instagram"
+                                style="padding: 1px;"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/groups/87531/"><i class="fab fa-linkedin"
+                                style="padding: 1px;"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://frcrce.almaconnect.com/"><i class="fas fa-user-friends"
+                                style="padding: 1px;"></i></a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary ml-3" role="button"
+                            href="https://linktr.ee/alumni.association">Give back</a>
+                    </li>
+
+                </ul>
+                    
+            </div>
+        </div>
+
+    </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning  ">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="activityreport.html">Activities report</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://frcrce.almaconnect.com/">Connect</a>
+            </li>
+           
+            <li class="nav-item">
+                <a class="nav-link" href="contribution.html">Contributions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact_us.html">Contact</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container pt-4 pb-3 shadow">
+        <!-- CUSTOM CONTENT STARTS --------------------------------------------------------------------------------------------------------------------------->
+        <div class="pt-3 pb-3 px-3 mt-4 bg-white rounded shadow-sm">
+  <h4 class="display-5 font-italic text-center mb-4">Contact us for<br>
+    <strong>Feedback, Suggestions or Enquiry</strong><br>
+  </h4>
+  <form class="needs-validation"  action="https://formspree.io/f/mnqlzoky" method="post" novalidate="">
+    
+     
+    
+  <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom01" name="name">Name</label>
+        <input type="text" class="form-control" id="validationCustom01" required="">
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom000" name="_replyto">Email</label>
+        <input type="email" class="form-control" id="validationCustom03" required="">
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationCustom000" name="number">Phone no.</label>
+        <input type="number" class="form-control" id="validationCustom03" minlength="10" maxlength="10" required="">
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+    </div>  
+    <div class="input-group mb-2" style="height: 10rem;">
+      <textarea value="Write to us here..." type="text" id="noob" class="form-control" aria-label="Write Here..." placeholder="Write a Message" name="message"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit">Send</button>
+  </form>
+    
+  <script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
+</div>
+<div id="footer">
+
+    <p> | <a href="/alum-jekyll/index.html">Home</a> | <a href="/alum-jekyll/contact.html">Contact Us</a> | </p>
+
+    <p>Fr. Agnel Ashram, Bandstand, Bandra (W). Mumbai 400 050. MH. IN</p>
+    <p>(91)-(022)-67114111 67114137, </p>
+    <p></p>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+        <!-- CUSTOM CONTENT ENDS   --------------------------------------------------------------------------------------------------------------------------->
+    </div>
+</body>
+</html>
