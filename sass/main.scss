@@ -67,7 +67,7 @@
      transition: all 0.3s ease-in-out;
      display: inline-block;
      margin-bottom: 20px;
-     background: #ecbd00;
+    background:  #ecbd00;
      width: 100%;
  }
  
@@ -77,6 +77,19 @@
     margin-top: 5px;
     margin-right: 10px;
     max-width: 135px;
+}
+// #ecbd00 #e6af22 #ffa801;
+
+.bg-top {
+    background-color: darkblue;
+}
+
+// .bg-nav {
+//     background-color: #ffa801;
+// }
+
+.bg-head{
+    background-color:  #ecbd00;
 }
 
 //--------------------------------------------------------------------------
@@ -144,15 +157,9 @@
            border-radius: 23px;
        }
        li{
-          // background-color: yellow;
-          // color: black;
-         //  border-radius: 20px;
            display: inline-block;
            padding: 0px 10px;
            width: 100%;
-           // &:not(:last-child){
-           //     margin-bottom: 5px;
-           // }
        }
        
    }
@@ -173,33 +180,6 @@
         color: #fff;
     }
 }
-// .top{
-//     padding: 10px 20px;
-//     margin-bottom: 0px;
-//     background: darkblue;
-//     color: #fff;
-
-//     .span{
-//         font-weight: bold;;
-//          color: #fff;
-
-//       }
-
-//       .giveback{
-    
-//         float: right;
-//         margin-top: 20px;
-//         background-color:#22e6e0;
-//         color:#000;
-//         border: 200px;
-//         padding: 2px 6px;
-//         border-radius: 5px;
-//         text-decoration: none;
-//         cursor: pointer;
-        
-//     }  
-    
-// }
 
 
 
@@ -225,8 +205,8 @@ body {
 
 .navbar{
     margin-bottom: 10px;
-  width: 100%;
-  //background-color:rgb(230,175,34);
+    width: 100%;
+   //background-color:rgb(230,175,34);
     
 }
 .navbar-nav{
@@ -257,50 +237,15 @@ body {
      display: flex;
      justify-content:space-between;
     .slider-activity {
-        // border:10px solid black;
         width: 60%;
      }
     
-    // .slider-activity {
-    //     width: 60%;
-    //     position: relative;
-    //     @include box-shadow;
 
-        // .carousel-item {
-        //     background: rgb(0, 0, 0);
-        //     position: relative;
-        //     height: 400px;
-        //     display: flex;
-        //     justify-content: center;
-        //     overflow: hidden;
-
-        //     &__descr {
-        //         position: absolute;
-        //         top: 50%;
-        //         left: 50%;
-        //         transform: translateX(-50%);
-        //         color: #fff;
-        //         text-align: center;
-        //     }
-        // }
-
-    //    img {
-            
-    //         flex-shrink: 0;
-    //         min-width: 100%;
-    //         min-height: 100%;
-    //     }
-
-    
-
-
-    
     .notice {
         width: 35%;
         background: rgb(245, 245, 245);
         @include box-shadow;
         position: relative;
-        // height: 400px;
 
         &-text {
             background: rgb(245, 245, 245);
@@ -322,7 +267,7 @@ body {
                     justify-content: space-around;
                     vertical-align: top;
                     font-size: 14px;
-                   line-height: 16px;
+                    line-height: 16px;
                     height: 40px;
 
                     i {
@@ -457,14 +402,14 @@ body {
         @include box-shadow;
 
         &::-webkit-scrollbar{
-            background:  #ecbd00;
+            background:   #ecbd00;
             width: 0;
             height: 0;
         }
 
         &__top{
             height: 50px;
-            background:  #ecbd00;
+            background: #ecbd00;
             display: flex;
             justify-content: space-between;
             align-items: center;
