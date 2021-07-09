@@ -968,7 +968,13 @@ button{
     body{
 
 
+        .notice {
+            width: 90%;
+            margin: auto;
+            @include box-shadow;
 
+            height: 300px;
+        }
 
 
 .my-navbar-icon{
