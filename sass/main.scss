@@ -974,6 +974,10 @@ button{
             @include box-shadow;
 
             height: 300px;
+
+            .marquee{
+                height: 300px;
+            }
         }
 
 
