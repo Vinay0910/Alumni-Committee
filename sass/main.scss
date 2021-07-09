@@ -679,78 +679,7 @@ button{
   body{
     padding: 0px 30px;
   } 
-//    .mcontainer-1 {
-//         width: 90%;
-//         display: flex;
-//         //padding: none;
-//         justify-content:space-evenly;
 
-//         // .slider-activity {
-//         //     width: 90%;
-//         // }
-
-//         // .notice {
-//         //     width: 90%;
-//         //     height: 400px;
-//         // }
-
-
-//     }
-//     .mcontainer-2 {
-//         width: 100%;
-
-//         .wrapper {
-//             width: 100%;
-//         }
-
-//         .alumani {
-//             display: none;
-//         }
-
-//         .slider-activity {
-//             display: block;
-//             position: relative;
-//             width: 100%;
-//             @include box-shadow;
-
-//             .carousel-item {
-//                 background: rgb(0, 0, 0);
-//                 position: relative;
-//                 height: 400px;
-//                 display: flex;
-//                 justify-content: center;
-//                 align-items: center;
-//                 overflow: hidden;
-
-//                 &__descr {
-//                     position: absolute;
-//                     top: 70%;
-//                     left: 50%;
-//                     transform: translateX(-50%);
-//                     color: #fff;
-
-//                 }
-//             }
-
-//             img {
-//                 opacity: 0.6;
-//                 flex-shrink: 0;
-//                 min-width: 100%;
-//                 min-height: 100%
-//             }
-
-//         }
-
-
-//         .social {
-//             width: 100%;
-//             height: 465px;
-//         }
-
-//     }
-//     .primary-head{
-//         font-size: 38px;
-//     }
  .committee-photo{
         display: none;
         }
@@ -968,19 +897,6 @@ button{
     body{
 
 
-        .notice {
-            width: 90%;
-            margin: auto;
-            @include box-shadow;
-
-            height: 300px;
-
-            .marquee{
-                height: 300px;
-            }
-        }
-
-
 .my-navbar-icon{
     
     margin-left: auto;
@@ -1100,16 +1016,7 @@ button{
         background: rgb(255, 255, 255);
         @include box-shadow;
     
-    //  .slider-activity {
-    //     width: 100%;
-    //     background: none;
-    //     box-shadow: none;
 
-    //     .carousel-item {
-    //         height: 300px;
-
-    //     }
-    // }
 
 
   }
